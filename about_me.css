@@ -1,0 +1,339 @@
+body{
+    background-color: rgb(252, 248, 248);
+    height:200%;
+    transition: all 1s linear;
+    scroll-behavior: smooth;
+}
+#img2{
+    margin-left: 270px !important;
+}
+.img{
+    height: 30px;
+    width: 30px;
+    margin-left: 50px;
+    border-radius: 10px;
+    z-index: 100;
+}
+#hobbies ul li img{
+    height:250px;
+    width: 360px;
+}
+.img:hover, footer #icon a .img:hover{
+    opacity: 0.8 !important;
+    cursor: pointer !important;
+}
+nav{
+    position: fixed;
+    top: 0;
+    width: 15%;
+    height:100%;
+    margin: 0px 0px 0px -8px;
+    background-color: rgb(49, 48, 48);
+    border: 1px rgb(17, 17, 17) solid;
+    scroll-behavior: smooth;
+}
+
+p{
+    color: rgb(71, 71, 71);
+}
+.divH1{
+margin: 1px 0px 0px 0px;
+padding: 0px;
+color: rgb(246, 247, 248) !important;
+font-size: 30px;
+font-family: monospace;
+font-weight: 400px;
+width: 94%;         
+border-radius: 2px;
+}
+#Ilinks{
+margin: 75px 0px 0px 13%;
+padding: 14px 0px;
+color: rgb(233, 232, 232) !important;
+width: 94%;
+scroll-behavior: smooth;
+}
+.no_dec{
+    text-decoration: none !important;
+}
+.no_dec:hover{
+    opacity: 0.8;
+}
+#icon abbr .bottomimg:hover{
+      margin-top: -50px;
+}
+#summary{
+    color: #565657;
+    font-size: x-large;
+    margin: 10px 0px 0px 280px;
+}
+.NavA{
+scroll-behavior: smooth;
+transition: all 1s linear;
+margin: 10px;
+font-size: 23px;
+text-decoration: none;
+color: rgb(202, 199, 200);
+}
+a:hover{
+    text-decoration: underline;
+    margin-top: 20px;
+    font-size: 23px;
+    scroll-behavior: smooth;
+}    
+a:active{
+    scroll-behavior: smooth;
+}
+
+#img1{
+    z-index: 5;
+    height: 350px;
+    width: 250px;
+    margin: -330px 0px 0px 740px;
+    border: rgb(19, 19, 19) solid 1px;
+    box-shadow: 4px 4px #686869 ;
+}
+#divmain{
+   margin-left: 15%;
+   margin-top: 1%;
+   z-index: -10;
+}
+h2{
+    font-size: 40px;
+    margin: 20px 0px 30px 10px;
+    color: rgb(60, 63, 63);
+}
+
+#education{
+    padding-bottom: 100px;
+}
+#education div{
+    background-color: lightgrey;
+    border: solid 1px #282829;
+    height: 200px;
+    width: 45%;
+    margin-top: 130px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+#education div img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+#education div p{
+    margin: -120px 0px   0px 220px;
+    font-size: large;
+    width: 50%;
+    height: 210px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(17, 17, 17);
+}
+#kindergarten{
+      margin-top: 50px !important;
+      margin-left: 20px;
+}
+
+#elementary{
+    margin: -203px 0px 0px 50% !important;
+}
+
+#middle{
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+#high{
+    margin: -202px 0px 0px 50% !important;
+}
+section{
+    background-color: rgb(241, 241, 241);
+    border-radius: 30px;
+    padding: 5px;
+    margin-top: 30px ;
+    scroll-behavior: smooth;
+}
+h3{
+    color: rgb(82, 81, 81);
+    font-weight: 400;
+}
+#achp{
+    margin: 15px 0px 0px 40px;
+    font-size: 17px;
+    color: rgb(43, 41, 38);
+}
+#start{
+    background-image: url(https://i.pinimg.com/736x/0f/39/46/0f39460ecbc7a01d7e6082d5b188b1e3.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 35%;
+}
+#ul1{
+    margin-top: 60px;
+    font-size: 30px;
+    font-family: cursive;
+    color: rgb(53, 4, 53);
+}
+section p{
+    text-indent: 14px;
+}
+h1{
+    color: rgb(41, 40, 40);
+    font-weight: 400;
+    font-family: monospace;
+}
+#start h1{
+    color: #40424a;          
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 58px;
+    font-weight: 500;
+    margin: 110px 0px 0px 140px ;
+}
+#start p{
+    color: rgb(100, 100, 96);
+    font-size: 20px;
+    font-family: serif;
+    font-weight: 100;
+    margin-left: 160px;
+}
+#w{
+   opacity: 0;
+}
+.title{
+    font-size: 20px;
+}
+.divH1{
+    margin-top: 10px;
+}
+#Elinks img{
+    height: 20px;
+    width: 20px;
+}
+#ach p{
+    color: rgb(59, 58, 58);
+    font-size: 20px;
+    font-weight: 400;
+    text-indent: 0px;
+}
+#ach ul{
+    margin-left: 40px;
+    color: rgb(49, 49, 49);
+}
+.right{
+    margin-left: 600px;
+    margin-top: 50px;
+}
+li{
+    margin: 70px 0px 0px 0px;
+}
+li img{
+    height: inherit;
+    width: 400px;
+    margin: -150px 0px 0px 600px;
+}
+.right img{
+    margin: -180px 0px 0px -550px;
+}
+#ach ul li{
+    margin-top: 15px; 
+}
+.skill_div{
+    background-color: #cecbcb;
+    padding-left: 30px;
+    margin: 10px 0px 0px 40px;
+    height: 30px;
+    width: 67px;
+    overflow: hidden;
+    z-index: 1;
+    transition: all 1s ease-in-out;
+}
+.skill_div:hover{
+    width: 850px;
+    height: 130px;
+    z-index: 5;
+    border-radius: 10px;
+    border: #282829 2px solid;
+    cursor: pointer;
+}
+
+.skill_name{
+  margin: 5px 0px 0px -25px;
+  color: rgb(26, 25, 25);
+}
+.skill_description{
+    color: #40424a;
+    text-indent: 0px !important;
+    margin-left: -20px;
+}
+#cbar{
+    margin: -77px 0px 0px 320px;
+}
+.bar{
+    margin: -63px 0px 0px 320;
+    width: 500px;
+    height: 30px;
+    background-color: #f0ececea;
+    border-radius: 12px;
+}
+.score{
+    transition: ease-in 1.3s width;
+    background-color:  #766dff;
+    border-radius: 12px;
+    height: 100%;
+    width: 0px;
+}
+.skill_div:hover #html{
+      width: 48%;
+      transition-delay: 1s;
+}
+.skill_div:hover #cycling{
+      width: 67%;
+      transition-delay: 1s;
+}
+.skill_div:hover #robotics{
+      width: 34%;
+      transition-delay: 1s;
+}
+.skill_label{
+    margin-left: 50%;
+    margin-top: 15px;
+}
+#html_l{
+    color: rgb(131, 118, 5);
+}
+#cycle_l{
+    color: rgb(102, 124, 20);
+}
+#robot_l{
+    color: orangered;
+}
+footer{
+    margin-top: 4%;
+    margin-bottom: -36px;
+    width: 100.99%;
+    left: -4px;
+    position: relative;
+  height: 20%;
+  background: #40424a;
+}
+footer h2{
+    color:rgb(202, 208, 214);
+    margin-top: -5px;
+    margin-left: 36%;
+    font-size: 37px;
+}
+footer p{
+    color: #c4bfbfbb;
+    font-size: 20px;
+    margin-left: -1%;
+}
+footer div .img{
+    display: inline-block !important;
+    margin-right: 20px;
+    margin-left: 0px; 
+    margin-bottom: -20px;
+}
+#icon{
+    margin-left: 47%;
+    margin-top: -19px ;
+}
